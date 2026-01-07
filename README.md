@@ -60,10 +60,33 @@ src/
 
 ---
 
-## How to Run
-```bash
-gradle build
-gradle run
+▶️ Run Java Project in VS Code (Gradle)
+1️⃣ Open project in VS Code
+code .
 
+2️⃣ Open VS Code Terminal
 
-## Project Structure
+Shortcut:
+
+Ctrl + `
+
+3️⃣ Build the project
+gradlew build
+
+4️⃣ Run the project
+gradlew run
+
+▶️ Direct Java Run (Without Gradle)
+
+If you want to run using javac and java:
+
+javac src/main/java/com/oracle/javawc/main/Main.java
+java com.oracle.javawc.main.Main
+
+▶️ Run using VS Code UI (Easiest)
+
+Open Main.java
+
+Click ▶ Run above public static void main
+
+Output will appear in the Terminal
